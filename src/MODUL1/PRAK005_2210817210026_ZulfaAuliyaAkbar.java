@@ -13,5 +13,6 @@ public class PRAK005_2210817210026_ZulfaAuliyaAkbar {
         String Hobi = in.next();
 
         System.out.println("Aku Suka Makan "+makanan+", dan Hobiku "+ Hobi);
+        in.close();
     }
 }
