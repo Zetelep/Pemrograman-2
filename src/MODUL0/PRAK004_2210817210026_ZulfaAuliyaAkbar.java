@@ -1,4 +1,4 @@
-package MODUL1;
+package MODUL0;
 
 public class PRAK004_2210817210026_ZulfaAuliyaAkbar {
 
