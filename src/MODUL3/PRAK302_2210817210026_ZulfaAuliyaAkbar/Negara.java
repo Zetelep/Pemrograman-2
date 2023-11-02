@@ -21,7 +21,7 @@ public class Negara {
 
     public void info(){
         if(jenisKepemimpinan.equals("monarki")){
-            System.out.println("Negara "+getNama()+"mempunyai Raja bernama "+getNamaPemimpin());
+            System.out.println("Negara "+getNama()+" mempunyai Raja bernama "+getNamaPemimpin()+"\n");
         }
         else{
             System.out.println("Negara "+getNama()+" mempunyai "+getJenisKepemimpinan() +" bernama "+getNamaPemimpin() +
@@ -57,7 +57,6 @@ public class Negara {
         bulan.put("12", "Desember");
         return bulan.get(bulanKemerdekaan);
     }
-
     public String getTahunKemerdekaan() {
         return tahunKemerdekaan;
     }
