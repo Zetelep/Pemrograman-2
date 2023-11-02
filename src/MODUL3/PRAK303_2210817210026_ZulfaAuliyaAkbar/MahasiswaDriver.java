@@ -39,7 +39,7 @@ public class MahasiswaDriver {
     static private void tambahMahasiswa(){
         System.out.print("Masukan Nama Mahasiswa: ");
         String nama = in.nextLine();
-        System.out.print("Masukan NIM Mahasiswa: ");
+        System.out.print("Masukan NIM Mahasiswa (harus unik): ");
         String NIM = in.next();
         if(listMahasiswa.isEmpty()){
             Mahasiswa mahasiswa = new Mahasiswa(nama,NIM);
